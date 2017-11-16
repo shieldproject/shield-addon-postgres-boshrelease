@@ -1,0 +1,4 @@
+---
+name: shield-addon-postgres-9.0
+files:
+  - postgres/postgresql-9.0.23.tar.bz2

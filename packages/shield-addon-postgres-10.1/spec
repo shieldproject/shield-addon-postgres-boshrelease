@@ -1,0 +1,4 @@
+---
+name: shield-addon-postgres-10.1
+files:
+  - postgres/postgresql-10.1.tar.bz2

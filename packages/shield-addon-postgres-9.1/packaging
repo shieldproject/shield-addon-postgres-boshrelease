@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eux
+CPUS=$(grep -c ^processor /proc/cpuinfo)
+
+tar -xjf postgres/postgresql-9.1.24.tar.bz2
+cd postgresql-9.1.24
+./configure --prefix=${BOSH_INSTALL_TARGET}
+make -j$CPUS && make install
