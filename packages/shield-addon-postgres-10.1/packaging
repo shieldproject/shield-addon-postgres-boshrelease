@@ -4,5 +4,5 @@ CPUS=$(grep -c ^processor /proc/cpuinfo)
 
 tar -xjf postgres/postgresql-10.1.tar.bz2
 cd postgresql-10.1
-./configure --prefix=${BOSH_INSTALL_TARGET}
+./configure --prefix=${BOSH_INSTALL_TARGET} --with-openssl
 make -j$CPUS && make install
