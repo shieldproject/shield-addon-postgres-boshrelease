@@ -8,15 +8,15 @@ utilities for backup and restore: psql, pg_dump, and pg_dumpall.
 
 The following versions are currently available:
 
- - **9.0.23** via `shield-addon-postgres-9.0`
- - **9.1.24** via `shield-addon-postgres-9.1`
+ - **11.2**   via `shield-addon-postgres-11`
+ - **10.7**   via `shield-addon-postgres-10`
+ - **9.6.12** via `shield-addon-postgres-9.6`
+ - **9.5.15** via `shield-addon-postgres-9.5`
+ - **9.4.21** via `shield-addon-postgres-9.4`
+ - **9.3.23** via `shield-addon-postgres-9.3`
  - **9.2.24** via `shield-addon-postgres-9.2`
- - **9.3.20** via `shield-addon-postgres-9.3`
- - **9.4.15** via `shield-addon-postgres-9.4`
- - **9.5.10** via `shield-addon-postgres-9.5`
- - **9.6.6**  via `shield-addon-postgres-9.6`
- - **10.0**   via `shield-addon-postgres-10.0`
- - **10.1**   via `shield-addon-postgres-10.1`
+ - **9.1.24** via `shield-addon-postgres-9.1`
+ - **9.0.23** via `shield-addon-postgres-9.0`
 
 Need a version we don't (yet) support?  Open a [Github Issue][bug]
 asking that we package it up.  If possible, supply both the full
@@ -27,7 +27,7 @@ page.
 
 **Note:** This BOSH release is not intended to stand on its own.
 It exists to augment the `shield-agent` job of the [SHIELD BOSH
-Release][1], and only in cases where the psql / pg_dump* utilities
+Release][1], and only in cases where the psql / pg\_dump\* utilities
 are missing.
 
 To colocate this BOSH release with your shield-agent instance

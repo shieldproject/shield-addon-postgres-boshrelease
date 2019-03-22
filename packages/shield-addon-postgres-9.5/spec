@@ -1,4 +1,4 @@
 ---
 name: shield-addon-postgres-9.5
 files:
-  - postgres/postgresql-9.5.10.tar.bz2
+  - postgres/postgresql-9.5.16.tar.bz2
