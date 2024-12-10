@@ -2,7 +2,7 @@
 set -eux
 CPUS=$(grep -c ^processor /proc/cpuinfo)
 
-tar -xjf postgres/postgresql-9.0.23.tar.bz2
-cd postgresql-9.0.23
+tar -xjf postgres/postgresql-15.10.tar.bz2
+cd postgresql-15.10
 ./configure --prefix=${BOSH_INSTALL_TARGET} --with-openssl
 make -j$CPUS && make install
