@@ -1,0 +1,4 @@
+---
+name: shield-addon-postgres-15
+files:
+  - postgres/postgresql-15.10.tar.bz2

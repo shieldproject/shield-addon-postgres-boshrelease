@@ -1,0 +1,76 @@
+name: shield-addon-postgres
+version: 2.0.0
+commit_hash: efd73ab
+uncommitted_changes: false
+jobs:
+- name: shield-addon-postgres-10
+  version: 7deb40ae04907daa4ca3c4ab14b460b59443eaff02519da9c446f4a52e5bbb0d
+  fingerprint: 7deb40ae04907daa4ca3c4ab14b460b59443eaff02519da9c446f4a52e5bbb0d
+  sha1: sha256:0b73c2d986f5da7ad0cdf327adac042803d4d89f8c89d4d6656d16402dd26a54
+  packages:
+  - shield-addon-postgres-10
+- name: shield-addon-postgres-11
+  version: 46bf949b00a361f98da9893df5f7f16b4aba12390654de9bac1fe6efd75895c0
+  fingerprint: 46bf949b00a361f98da9893df5f7f16b4aba12390654de9bac1fe6efd75895c0
+  sha1: sha256:a2aa5db51881f660cc9be70d7e12247dd764e99aeaa905907253cef1c78c2624
+  packages:
+  - shield-addon-postgres-11
+- name: shield-addon-postgres-13
+  version: 8f63f4ef66460057aba6254ab85bc863cb33e1f8dfde1a62d976e2b8070f7ff9
+  fingerprint: 8f63f4ef66460057aba6254ab85bc863cb33e1f8dfde1a62d976e2b8070f7ff9
+  sha1: sha256:d23f8370baf61d9e520953a0ca1745a4415bd24ebd4af4c83e736cf5a901b9da
+  packages:
+  - shield-addon-postgres-13
+- name: shield-addon-postgres-15
+  version: fac7162b9b2a1504ea85fa59f62f0e6496a9adb6e5e42fc92d8ef1a911ff7e69
+  fingerprint: fac7162b9b2a1504ea85fa59f62f0e6496a9adb6e5e42fc92d8ef1a911ff7e69
+  sha1: sha256:ed01f6e800680589fc50b90ba34892f17fa1498cac7da6daee4e6872419f710d
+  packages:
+  - shield-addon-postgres-15
+- name: shield-addon-postgres-16
+  version: e49c4355129bc1458f3e7f225790a9420fe91b3717b610c0c4ac109af8d202c2
+  fingerprint: e49c4355129bc1458f3e7f225790a9420fe91b3717b610c0c4ac109af8d202c2
+  sha1: sha256:683d9306c51202c89acbc9af64921f22a402b512debb9032965697037a1ae689
+  packages:
+  - shield-addon-postgres-16
+- name: shield-addon-postgres-9.6
+  version: a49a0a8c3ac790604e145fa3460fe2f5826768d83994be10b941a7884d8361f2
+  fingerprint: a49a0a8c3ac790604e145fa3460fe2f5826768d83994be10b941a7884d8361f2
+  sha1: sha256:3bbb8e99b4de67476e256cb90385b65489e04396ac696b1ef82c39cad28ecaac
+  packages:
+  - shield-addon-postgres-9.6
+packages:
+- name: shield-addon-postgres-10
+  version: b5fd886b1aca2204c089d039c0f336f8a7f949216a71d0034c43a58aef84884e
+  fingerprint: b5fd886b1aca2204c089d039c0f336f8a7f949216a71d0034c43a58aef84884e
+  sha1: sha256:ecef41de3f3241a853b6f93b8e0426f59e825e9782b27778f472d853ab8fd54c
+  dependencies: []
+- name: shield-addon-postgres-11
+  version: c92c68a84130c13dfd2be9a14ebffdda778bdf085f39d8b2dc840298c739d1bb
+  fingerprint: c92c68a84130c13dfd2be9a14ebffdda778bdf085f39d8b2dc840298c739d1bb
+  sha1: sha256:4877ad2a17d439601b7b08f1795909434359b24f65143e16cb76890602f157a2
+  dependencies: []
+- name: shield-addon-postgres-13
+  version: b427a5090beafeb07e6d7e5bc5a4da954e5ff2229b783b63765dcf0f4d94b6fb
+  fingerprint: b427a5090beafeb07e6d7e5bc5a4da954e5ff2229b783b63765dcf0f4d94b6fb
+  sha1: sha256:5e94644c933b38e05bf2e1034c20eab76ef3bce23a8e46b3b4dfa12f03890e0c
+  dependencies: []
+- name: shield-addon-postgres-15
+  version: 69e064c83cdfa56ca8fdd84b083965b8ea0908055fe805ff4dbcb206944babe6
+  fingerprint: 69e064c83cdfa56ca8fdd84b083965b8ea0908055fe805ff4dbcb206944babe6
+  sha1: sha256:b44e92e711a9598157ffa53f34fd40abfb3683c1db072ddd7dd1e7cdcfc5c8d0
+  dependencies: []
+- name: shield-addon-postgres-16
+  version: 677845e6088329e605257a42df5da1c34eb70096f25878db3bedad1fa839b91b
+  fingerprint: 677845e6088329e605257a42df5da1c34eb70096f25878db3bedad1fa839b91b
+  sha1: sha256:9aba32850c22fc7de32d3f925b7da8b2f26ecd4dfb9bc1cf8320ef31049cb99b
+  dependencies: []
+- name: shield-addon-postgres-9.6
+  version: 781eaa120e331c83d643ced337f38b845cfc8a24fa114537acfbfa4c98efeca3
+  fingerprint: 781eaa120e331c83d643ced337f38b845cfc8a24fa114537acfbfa4c98efeca3
+  sha1: sha256:051f8c0b9fd80ca4e9bb0c3b353763585286372893669c34ea1f5e0fbd9c82d2
+  dependencies: []
+license:
+  version: bbb5d860163ee53d5e97eadd99fecce8fcaabc50d2c1b81e9459aff6086e620a
+  fingerprint: bbb5d860163ee53d5e97eadd99fecce8fcaabc50d2c1b81e9459aff6086e620a
+  sha1: sha256:28c41a915d1f9406fc57daec982526d588b0688e7f12b9fec1d54b2f29710827

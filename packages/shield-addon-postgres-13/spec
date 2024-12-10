@@ -1,0 +1,4 @@
+---
+name: shield-addon-postgres-13
+files:
+  - postgres/postgresql-13.18.tar.bz2

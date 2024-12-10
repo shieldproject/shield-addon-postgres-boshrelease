@@ -1,0 +1,4 @@
+---
+name: shield-addon-postgres-16
+files:
+  - postgres/postgresql-16.6.tar.bz2

@@ -1,8 +1,0 @@
-#!/bin/sh
-set -eux
-CPUS=$(grep -c ^processor /proc/cpuinfo)
-
-tar -xjf postgres/postgresql-9.4.21.tar.bz2
-cd postgresql-9.4.21
-./configure --prefix=${BOSH_INSTALL_TARGET} --with-openssl
-make -j$CPUS && make install

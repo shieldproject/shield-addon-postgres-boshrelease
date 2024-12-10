@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eux
+CPUS=$(grep -c ^processor /proc/cpuinfo)
+
+tar -xjf postgres/postgresql-16.6.tar.bz2
+cd postgresql-16.6
+./configure --prefix=${BOSH_INSTALL_TARGET} --with-openssl --without-icu
+make -j$CPUS && make install
