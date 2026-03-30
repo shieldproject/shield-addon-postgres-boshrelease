@@ -1,0 +1,4 @@
+---
+name: shield-addon-postgres-14
+packages:
+  - shield-addon-postgres-14

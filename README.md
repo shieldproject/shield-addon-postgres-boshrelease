@@ -8,11 +8,14 @@ utilities for backup and restore: psql, pg_dump, and pg_dumpall.
 
 The following versions are currently available:
 
- - **16.6**   via `shield-addon-postgres-16`
- - **15.10**   via `shield-addon-postgres-16`
- - **13.18**   via `shield-addon-postgres-16`
- - **11.22**   via `shield-addon-postgres-11`
- - **10.23**   via `shield-addon-postgres-10`
+ - **18.3**   via `shield-addon-postgres-18`
+ - **17.9**   via `shield-addon-postgres-17`
+ - **16.13**  via `shield-addon-postgres-16`
+ - **15.17**  via `shield-addon-postgres-15`
+ - **14.22**  via `shield-addon-postgres-14`
+ - **13.23**  via `shield-addon-postgres-13`
+ - **11.22**  via `shield-addon-postgres-11`
+ - **10.23**  via `shield-addon-postgres-10`
  - **9.6.24** via `shield-addon-postgres-9.6`
 
 Need a version we don't (yet) support?  Open a [Github Issue][bug]
@@ -42,4 +45,4 @@ instance_groups:
 That's really all there is to it.
 
 [bug]: https://github.com/shieldproject/shield-addon-postgres-boshrelease/issues
-[1]:   https://github.com/starkandwayne/shield-boshrelease
+[1]:   https://github.com/shieldproject/shield-boshrelease

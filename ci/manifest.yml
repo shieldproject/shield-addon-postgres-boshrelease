@@ -8,63 +8,15 @@ instance_groups:
     stemcell: default
     networks: [{name: default}]
     jobs:
-      - {release: shield-addon-postgres, name: shield-addon-postgres-9.0 }
-      - {release: shield-addon-postgres, name: shield-addon-postgres-9.1 }
-      - {release: shield-addon-postgres, name: shield-addon-postgres-9.2 }
-      - {release: shield-addon-postgres, name: shield-addon-postgres-9.3 }
-      - {release: shield-addon-postgres, name: shield-addon-postgres-9.4 }
-      - {release: shield-addon-postgres, name: shield-addon-postgres-9.5 }
-      - {release: shield-addon-postgres, name: shield-addon-postgres-9.6 }
-      - {release: shield-addon-postgres, name: shield-addon-postgres-10 }
-      - {release: shield-addon-postgres, name: shield-addon-postgres-11 }
-
-  - name: postgres-9.0
-    instances: 1
-    azs: [z1]
-    vm_type: default
-    stemcell: default
-    networks: [{name: default}]
-    jobs: [{ release: shield-addon-postgres, name: shield-addon-postgres-9.0 }]
-
-  - name: postgres-9.1
-    instances: 1
-    azs: [z1]
-    vm_type: default
-    stemcell: default
-    networks: [{name: default}]
-    jobs: [{ release: shield-addon-postgres, name: shield-addon-postgres-9.1 }]
-
-  - name: postgres-9.2
-    instances: 1
-    azs: [z1]
-    vm_type: default
-    stemcell: default
-    networks: [{name: default}]
-    jobs: [{ release: shield-addon-postgres, name: shield-addon-postgres-9.2 }]
-
-  - name: postgres-9.3
-    instances: 1
-    azs: [z1]
-    vm_type: default
-    stemcell: default
-    networks: [{name: default}]
-    jobs: [{ release: shield-addon-postgres, name: shield-addon-postgres-9.3 }]
-
-  - name: postgres-9.4
-    instances: 1
-    azs: [z1]
-    vm_type: default
-    stemcell: default
-    networks: [{name: default}]
-    jobs: [{ release: shield-addon-postgres, name: shield-addon-postgres-9.4 }]
-
-  - name: postgres-9.5
-    instances: 1
-    azs: [z1]
-    vm_type: default
-    stemcell: default
-    networks: [{name: default}]
-    jobs: [{ release: shield-addon-postgres, name: shield-addon-postgres-9.5 }]
+      - {release: shield-addon-postgres, name: shield-addon-postgres-9.6}
+      - {release: shield-addon-postgres, name: shield-addon-postgres-10}
+      - {release: shield-addon-postgres, name: shield-addon-postgres-11}
+      - {release: shield-addon-postgres, name: shield-addon-postgres-13}
+      - {release: shield-addon-postgres, name: shield-addon-postgres-14}
+      - {release: shield-addon-postgres, name: shield-addon-postgres-15}
+      - {release: shield-addon-postgres, name: shield-addon-postgres-16}
+      - {release: shield-addon-postgres, name: shield-addon-postgres-17}
+      - {release: shield-addon-postgres, name: shield-addon-postgres-18}
 
   - name: postgres-9.6
     instances: 1
@@ -72,7 +24,7 @@ instance_groups:
     vm_type: default
     stemcell: default
     networks: [{name: default}]
-    jobs: [{ release: shield-addon-postgres, name: shield-addon-postgres-9.6 }]
+    jobs: [{release: shield-addon-postgres, name: shield-addon-postgres-9.6}]
 
   - name: postgres-10
     instances: 1
@@ -80,7 +32,7 @@ instance_groups:
     vm_type: default
     stemcell: default
     networks: [{name: default}]
-    jobs: [{ release: shield-addon-postgres, name: shield-addon-postgres-10 }]
+    jobs: [{release: shield-addon-postgres, name: shield-addon-postgres-10}]
 
   - name: postgres-11
     instances: 1
@@ -88,7 +40,55 @@ instance_groups:
     vm_type: default
     stemcell: default
     networks: [{name: default}]
-    jobs: [{ release: shield-addon-postgres, name: shield-addon-postgres-11 }]
+    jobs: [{release: shield-addon-postgres, name: shield-addon-postgres-11}]
+
+  - name: postgres-13
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{release: shield-addon-postgres, name: shield-addon-postgres-13}]
+
+  - name: postgres-14
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{release: shield-addon-postgres, name: shield-addon-postgres-14}]
+
+  - name: postgres-15
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{release: shield-addon-postgres, name: shield-addon-postgres-15}]
+
+  - name: postgres-16
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{release: shield-addon-postgres, name: shield-addon-postgres-16}]
+
+  - name: postgres-17
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{release: shield-addon-postgres, name: shield-addon-postgres-17}]
+
+  - name: postgres-18
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{release: shield-addon-postgres, name: shield-addon-postgres-18}]
 
 update:
   canaries: 0
@@ -99,7 +99,7 @@ update:
 
 stemcells:
   - alias: default
-    os: ubuntu-xenial
+    os: ubuntu-jammy
     version: latest
 
 releases:

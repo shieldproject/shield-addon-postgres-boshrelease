@@ -1,0 +1,4 @@
+---
+name: shield-addon-postgres-14
+files:
+  - postgres/postgresql-14.22.tar.bz2

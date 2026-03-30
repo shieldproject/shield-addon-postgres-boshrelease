@@ -1,0 +1,4 @@
+---
+name: shield-addon-postgres-17
+files:
+  - postgres/postgresql-17.9.tar.bz2
