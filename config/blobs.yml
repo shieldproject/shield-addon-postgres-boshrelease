@@ -11,26 +11,20 @@ postgres/postgresql-11.22.tar.bz2:
   object_id: f6906104-e9b6-45b8-6ab6-00226167ce0b
   sha: sha256:2cb7c97d7a0d7278851bbc9c61f467b69c094c72b81740b751108e7892ebe1f0
 postgres/postgresql-13.23.tar.bz2:
-  size: 0
-  object_id: pending-upload
+  size: 21767253
   sha: sha256:6ec3c82726af92b7dec873fa1cdf881eca92a4219787dfad05acb6b10e041fd6
 postgres/postgresql-14.22.tar.bz2:
-  size: 0
-  object_id: pending-upload
+  size: 22534388
   sha: sha256:f57938ad30067077720277f6d7db05aafc07d1545efd2ed82f199ba828a7ad34
 postgres/postgresql-15.17.tar.bz2:
-  size: 0
-  object_id: pending-upload
+  size: 23357238
   sha: sha256:ae14f24c14727e0b2ded1c5553031666099bd1054db3ef44bfa6e2bd6d554a56
 postgres/postgresql-16.13.tar.bz2:
-  size: 0
-  object_id: pending-upload
+  size: 25051306
   sha: sha256:dc2ddbbd245c0265a689408e3d2f2f3f9ba2da96bd19318214b313cdd9797287
 postgres/postgresql-17.9.tar.bz2:
-  size: 0
-  object_id: pending-upload
+  size: 21648916
   sha: sha256:3b9a62538a8da151e807a3ddb1198e8605f2032544d78f403ae883d27ecf1ee4
 postgres/postgresql-18.3.tar.bz2:
-  size: 0
-  object_id: pending-upload
+  size: 22497924
   sha: sha256:d95663fbbf3a80f81a9d98d895266bdcb74ba274bcc04ef6d76630a72dee016f
